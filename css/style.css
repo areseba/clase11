@@ -80,3 +80,19 @@
     padding: 30px;
     color: white; 
 }
+@media screen and (max-width: 768px){
+.contenido {
+    flex-wrap: wrap;
+}
+.barra-superior{
+    flex-wrap: wrap;
+}
+}
+@media screen and (max-width: 480px){
+.contenido {
+    flex-wrap: wrap;
+}
+.pie-pagina{
+    flex-wrap: wrap;
+}
+}
